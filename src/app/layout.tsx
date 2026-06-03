@@ -4,7 +4,7 @@ import SocialSignature from '../components/SocialSignature'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Mapa do que sinto',
+  title: 'Anatomia do invisível',
   description: 'Uma anatomia cinematográfica sobre autoestima, dismorfia corporal e presença.',
 }
 
