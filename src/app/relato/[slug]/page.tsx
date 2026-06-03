@@ -2,6 +2,10 @@ import { notFound } from 'next/navigation'
 import FeelingStory from '../../../components/FeelingStory'
 import { stories, type StorySlug } from '../../../components/storyData'
 
+export function generateStaticParams() {
+  return Object.keys(stories).map((slug) => ({ slug }))
+}
+
 export default async function Page({
   params,
 }: {
